@@ -1,0 +1,83 @@
+.main {
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px; 
+    max-width: 900px;
+    min-height: 100vh;
+    background-color: white;
+    overflow: auto;
+    
+}
+
+#body {
+    background-color: lightblue;
+    font-size: 0.9em;
+    
+}
+
+h1, h3 {
+    /* font-size: 1.5em; */
+    text-align: center;
+    /* padding: 10px 10px 10px 10px; */
+    padding-top: 10px;
+}
+
+
+
+h2, h4 {
+    /* font-size: 1.3em; */
+    color: gray;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+/* @media screen and (max-width: 492px) {
+    #screenshot {
+        width: 100%;
+        height: auto;
+    }
+    .center {
+        width: 100%;
+        height: auto;
+    }
+
+  }
+
+  @media screen and (min-width: 493px) {
+    #screenshot {
+        width: auto;
+        max-height: 400px;
+        float: right;
+    }
+  } */
+  
+
+
+.screenshot {
+    max-width: 48.5%;
+    height: auto;
+    min-width: 10%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
